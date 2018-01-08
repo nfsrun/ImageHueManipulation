@@ -1,5 +1,6 @@
 // Name         : ColorChanger.java
 // Author       : Fatma Serce
+// Version      : 1.02
 // Modified     : Kevin Tran
 // Description  : ColorChanger class provided by professor. Color changer will
 // change the hue of an image (default hardcoded for flower.png) at a certain
@@ -47,11 +48,11 @@ public class ColorChanger{
                 Color.RGBtoHSB(red, green, blue, hsbArray);
 
                 //Then use Color.HSBtoRGB() method to convert the HSB value to a
-                //new RGB value. The new RGB value is calculated by multiplying
-                //the original RGB value by the hue changing multiplier
-                //variable named hue).
+                //new RGB value. The new RGB value is calculated by adding the
+                //original RGB value by the hue changing multiplier variable
+                //named hue).
                 //Step 4 completed.
-                int newRGB = Color.HSBtoRGB(hsbArray[0]*hue, hsbArray[1],
+                int newRGB = Color.HSBtoRGB(hsbArray[0]+hue, hsbArray[1],
                         hsbArray[2]);
 
                 //Set the new RGB value to a pixel at x,y coordinates in the

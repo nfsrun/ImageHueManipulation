@@ -1,6 +1,6 @@
 # ImageHueManipulation (ColorChanger)
 ## Created By Kevin Tran
-## Finished Version: 1.01 - Fixed README.md. - 06/01/2018
+## Finished Version: 1.02 - Fixed hue modification by changing '*' to '+' - 08/01/2018
 ## CS351 - Extra Credit Assignment 1
 ## Professor Fatma Serce
 
@@ -10,9 +10,10 @@ ColorChanger class provided by professor. Color changer will change the hue of a
 ### Version Log
 ## 1.00 -- First commit. - 06/01/2018
 ## 1.01 -- Fixed README.md. - 06/01/2018
+## 1.02 -- Fixed hue modification by changing '*' to '+' - 08/01/2018
 
 ### Clarifications on Instructions
-#### As of 01/06/2018
+#### As of 01/08/2018
 This section is made to stipulate certain typos and confusions pertaining to the assignment and its instructions in order to facilitate grading integrity. 
 
 1. N/A
